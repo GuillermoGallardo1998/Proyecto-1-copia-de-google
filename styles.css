@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #101218;
+  color: white;
+}
+header {
+  margin-top: 10px;
+  height: 60px;
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header_items {
+  width: 370px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.header_gmail {
+  font-size: 18px;
+  color: white;
+}
+.header_imagenes {
+  font-size: 18px;
+  color: white;
+}
+.header_allapps {
+  background-color: #101218;
+  border: none;
+  outline: none;
+}
+header button {
+    border: none;
+
+}
+.header_acceder {
+  background-color: #c2e7ff;
+  height: 50px;
+  width: 100px;
+  border-radius: 25px;
+  margin-right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.acceder {
+  font-size: 18px;
+  color: black;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 170px);
+  gap:30px;
+}
+.main_logo_google {
+  margin-top: 25px;
+  height: 125px;
+  width: 375px;
+}
+.main_barra_busqueda {
+  height: 60px;
+  width: 700px;
+  background-color: #3f4454;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main_busqueda_icons {
+  height: 30px;
+  height: 30px;
+  background-color: #3f4454;
+}
+.main_buscador {
+  width: 500px;
+  height: 46px;
+  border: none; 
+  outline: none;
+  background-color:  #3f4454;
+  font-size: 18px;
+}
+.main_barra_busqueda button {
+  border: none;
+  outline: none;
+}
+.main_buttons {
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main_buttons button {
+  background-color: #3f4454;
+  width: 200px;
+  height: 48px;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+}
+.main_buttons a {
+  background-color: #3f4454;
+  width: 200px;
+  height: 48px;
+  border-radius: 6px;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer {
+  background-color: #1f2128;
+}
+.footer_pais {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.footer_pais_nombre {
+  font-size: 20px;
+}
+.footer_links {
+  display: flex;
+  justify-content: space-between;
+  height: 49px;
+  align-items: center;
+  border-top: 1px solid #292c32;
+}
+.footer_links_izquierda {
+  margin-left: 40px;
+}
+.footer_links_izquierda a {
+  color: white;
+  margin-right: 40px;
+  font-size: 18px;
+}
+.footer_links_derecha {
+  margin-right: 40px;
+}
+.footer_links_derecha a {
+  color: white;
+  margin-left: 40px;
+    font-size: 18px;
+}
+
+
+button {
+  background-color: transparent;
+}
+
+.main_buttons_effect:hover {
+  cursor: pointer;
+  transform: translateY(1px);
+}
+.header_allapps:hover {
+  cursor: pointer;
+  transform: translateY(1px);
+}
+.main_busqueda_icons:hover {
+  cursor: pointer;
+  transform: translateY(1px);
+}
+
+/* texte decoration underline subrayar */
